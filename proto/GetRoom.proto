@@ -1,3 +1,5 @@
+syntax = "proto3";
+
 package com.gameroot.lg.message;
 
 import "RoomInfo.proto";
@@ -10,7 +12,7 @@ message GetRoomRequest
 
 message GetRoomResponse
 {
-	required Result result = 1;
+	Result result = 1;
 	repeated Room room = 2;
-	optional string message = 3[default="Hi"];
+	string message = 3;
 }

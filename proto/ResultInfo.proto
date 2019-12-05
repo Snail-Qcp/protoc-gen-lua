@@ -1,3 +1,5 @@
+syntax = "proto3";
+
 package com.gameroot.lg.message;
 
 /** 状态码 */
